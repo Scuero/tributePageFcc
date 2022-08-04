@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+</head>
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+    body {
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    footer{
+        font-size:30px;
+    }
+
+    #main {
+        width: 100%;
+        height: 100%;
+        background-color: #eee;
+    }
+
+
+    #title{
+        font-family: 'Anton', sans-serif;
+    }
+
+    #img-div{
+        background: white;
+        padding: 10px;
+        margin: 5;
+    }
+
+    #image{
+        display:block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #img-caption{
+        margin-top: 15px;
+        margin-bottom:10px;
+    }
+
+    #tribute-info {
+        max-width: 650px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 150%;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+    }
+
+    #tribute-link{
+        font-size:40px;
+        font-style: italic;
+    }
+
+</style>
+
+<body>
+    <main id="main">
+
+        <header id="title">
+            <h1>Albert Einstein</h1>
+            <h2>El científico del siglo XX</h2>
+        </header>
+
+        <figure id="img-div">
+            <img id="image" src="https://potosinoticias.com/wp-content/uploads/2019/02/albert-einstein.jpg" alt="Albert Einstein sacando la lengua">
+            <figcaption id="img-caption">
+                Una de las fotografías mas iconicas del científico, tomada el dia de su cumpleaños. 
+                Reporteros pidieron que regalara una sonrisa a la
+                camara, pero en vez de eso, sacó la lengua. Un crack.
+            </figcaption>
+
+        </figure>
+
+        <section id="tribute-info">
+            <h3>Trayectoria Científica</h3>
+            <ul>
+                <li>
+                    <b>1905</b> - Efecto fotoeléctrico. Einstein proponía la idea de «quanto» de luz (ahora llamados fotones) y 
+                    mostraba cómo se podía utilizar este concepto para explicar el efecto fotoeléctrico.
+                </li>
+                <br>
+                <li>
+                    <b>1905</b> - Movimiento browniano. El artículo explicaba el fenómeno haciendo uso de las estadísticas 
+                    del movimiento térmico de los átomos individuales que forman un fluido. El movimiento browniano 
+                    había desconcertado a la comunidad científica desde su descubrimiento unas décadas atrás.
+                </li>
+                <br>
+                <li>
+                    <b>1905</b> - Relatividad especial. En este artículo Einstein introducía la teoría de la relatividad 
+                    especial estudiando el movimiento de los cuerpos y el electromagnetismo en ausencia de la fuerza 
+                    de interacción gravitatoria.
+                </li>
+                <br>
+                <li>
+                    <b>1915</b> - Relatividad general.  En esta teoría todos los observadores son considerados equivalentes 
+                    y no únicamente aquellos que se mueven con una velocidad uniforme. La gravedad no es ya una fuerza 
+                    o acción a distancia, como era en la gravedad newtoniana, sino una consecuencia de la curvatura del 
+                    espacio-tiempo.
+                </li>
+                <br>
+                <li>
+                    <b>1924</b> - Estadísticas de Bose-Einstein.  En 1924 Einstein recibió un artículo de un joven físico 
+                    indio, Satyendranath Bose, denominado La ley de Plank y la hipótesis del cuanto de luz, 
+                    describiendo a la luz como un gas de fotones y pidiendo la ayuda de Einstein para su publicación.
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p><b>Si te interesa saber mas sobre sus descubrimientos, puedes visitar este</b>
+                <a id="tribute-link" href="https://es.wikipedia.org/wiki/Albert_Einstein" target="_blank">
+                <b>link de wikipedia</b>
+                </a>
+            </p>
+            
+        </footer>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
